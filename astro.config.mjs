@@ -29,7 +29,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 export default defineConfig({
 	site: "https://mizuki.mysqil.comhttps://github.com/hinanarin/hinanarin.github.io.git/",
 
-	base: "/hinanarin.github.io/",
+	base: "/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
